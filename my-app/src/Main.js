@@ -7,7 +7,7 @@ class Main extends Component {
     constructor(props) {
         super(props);
         this.state ={
-            pictureArray:['https://i.pinimg.com/originals/88/fb/09/88fb091a6572c71ccbb70d564981ac30.gif', 'https://i.pinimg.com/originals/05/fc/b7/05fcb7eb64f37a81e75005b646f3a91a.jpg'],
+            pictureArray:['/assets/glarson1.jpg','/assets/glarson2.jpg', '/assets/glarson3.jpg', '/assets/glarson4.jpg', '/assets/glarson5.jpg', '/assets/glarson6.jpg', '/assets/glarson7.jpg', '/assets/glarson8.jpg', '/assets/glarson9.jpg', '/assets/glarson10.jpg', '/assets/glarson11.jpg', '/assets/glarson12.jpg', '/assets/glarson13.jpg', '/assets/glarson14.jpg', '/assets/glarson15.jpg', '/assets/glarson16.jpg'],
             selectedItem:null, //need to save state of selected item and compare
         }
     }
